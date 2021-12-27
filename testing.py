@@ -1,0 +1,1 @@
+new_file = open("newfile.txt", mode="a+", encoding = "utf-8")
