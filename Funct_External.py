@@ -8,7 +8,9 @@
 
 # print(f"You have {name_length} characters in your name.")
 
-from func_Calc import *
+# ~~~---~~~
+
+#from func_Calc import *
 
 select_loop = 0
 valid = 0
@@ -20,15 +22,19 @@ while select_loop == 0:
     if selection == "1" or selection == "Addition" or selection == "addition":
         str_selection = "Addition"
         select_loop = 1
+        from func_Calc import add_num
     elif selection == "2" or selection == "Subtraction" or selection == "subtraction":
         str_selection = "Subtraction"
         select_loop = 1
+        from func_Calc import sub_num
     elif selection == "3" or selection == "Multiplication" or selection == "multiplication":
         str_selection = "Multiplcation"
         select_loop = 1
+        from func_Calc import mul_num
     elif selection == "4" or selection == "Division" or selection == "division":
         str_selection = "Divison"
         select_loop = 1
+        from func_Calc import div_num
     else:
         print("**Error**\nInvalid input. Please input either a number (1-4) or the word for the selection you wish to make\n")
         select_loop = 0
