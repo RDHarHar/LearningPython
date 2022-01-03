@@ -1,10 +1,6 @@
-#Function Testing
+# Run function from external script
 
-def spell_name(user_name): 
-    size = len(user_name)
-    for i in range(size):
-        print(user_name[i])
-    return(size)
+from Function_Testing import spell_name
 
 user_name = input("Please enter your first name: ")
 
